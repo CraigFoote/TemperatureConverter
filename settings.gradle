@@ -7,4 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Temperature Converter"
-include ':app'
+include ':Temperature Converter'
