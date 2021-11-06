@@ -27,21 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText getCelsiusEditText() {
         if (this.celsiusEditText == null) {
-            this.celsiusEditText = (EditText) findViewById(R.id.editTextNumberDecimal_celsius);
+            this.celsiusEditText = findViewById(R.id.editTextNumberDecimal_celsius);
         }
         return this.celsiusEditText;
     }
 
     private EditText getFahrenheitEditText() {
         if (this.fahrenheitEditText == null) {
-            this.fahrenheitEditText = (EditText) findViewById(R.id.editTextNumberDecimal_fahrenheit);
+            this.fahrenheitEditText = findViewById(R.id.editTextNumberDecimal_fahrenheit);
         }
         return this.fahrenheitEditText;
     }
 
     private EditText getKelvinEditText() {
         if (kelvinEditText == null) {
-            kelvinEditText = (EditText) findViewById(R.id.editTextNumberDecimal_kelvin);
+            kelvinEditText = findViewById(R.id.editTextNumberDecimal_kelvin);
         }
         return kelvinEditText;
     }
