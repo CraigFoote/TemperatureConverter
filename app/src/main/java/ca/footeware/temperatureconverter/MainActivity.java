@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            if (s.length() == 0) {
+            if (s.length() == 0 || s.toString().equals("-")) {
                 getFahrenheitEditText().setText("");
                 getKelvinEditText().setText("");
             } else {
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            if (s.length() == 0) {
+            if (s.length() == 0 || s.toString().equals("-")) {
                 getCelsiusEditText().setText("");
                 getKelvinEditText().setText("");
             } else {
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            if (s.length() == 0) {
+            if (s.length() == 0 || s.toString().equals("-")) {
                 getCelsiusEditText().setText("");
                 getFahrenheitEditText().setText("");
             } else {
