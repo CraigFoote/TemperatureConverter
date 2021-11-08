@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String getCelsiusFromFahrenheit(CharSequence s) {
-        return String.valueOf(Double.parseDouble(s.toString()) - 32.0 * (5.0 / 9.0));
+        return String.valueOf((Double.parseDouble(s.toString()) - 32.0) * (5.0 / 9.0));
     }
 
     private String getKelvinFromFahrenheit(CharSequence s) {
